@@ -409,8 +409,8 @@ nav.navbar.navbar-dark.mobile.navbar-expand-lg.fixed-top.bg-white.portfolio-navb
         bottom: 14px;
         display: block;
         border-radius: 60px;
-        max-width: 96%;
-        margin: auto;
+        max-width: 96% !important;
+        margin: auto !important;
     }
 
     nav.navbar.navbar-dark.mobile.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient div.row {
