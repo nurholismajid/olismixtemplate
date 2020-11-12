@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>OLISMIX</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=4d0845a87574bb100b6fb9eca7a173cd">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+    <link rel="stylesheet" href="./assets/animate/animate.css">
+    <link rel="stylesheet" href="./assets/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/GRT/grt-youtube-popup.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo animated infinite flash slower" href="#"><img class="logo-img" src="./assets/img/olismix_web.png"/></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" data-aos="fade-right" role="presentation"><a class="nav-link active" onclick="gotoberanda()" href="#"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li class="nav-item" data-aos="fade-down" role="presentation"><a class="nav-link" onclick="gotoyoutube()" href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                    <li class="nav-item" data-aos="fade-up" role="presentation"><a class="nav-link" onclick="gotokeahlian()" href="#"><i class="fas fa-chalkboard-teacher"></i> Keahlian</a></li>
+                    <li class="nav-item" data-aos="fade-down" role="presentation"><a class="nav-link" onclick="gotoprojek()" href="#"><i class="fas fa-tasks"></i> Projek</a></li>
+                    <li class="nav-item" data-aos="fade-up" role="presentation"><a class="nav-link" onclick="gotoprofil()" href="#"><i class="fas fa-user"></i> Profil</a></li>
+                    <li class="nav-item" data-aos="fade-left" role="presentation"><a class="nav-link" data-toggle="modal" data-target="#hubungisaya" href="#"><i class="fas fa-address-book"></i> Hubungi Saya</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav data-aos="fade-in" class="navbar navbar-dark mobile navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container">
+            <div class="row">
+                    <div class="col-2" data-aos="fade-right" role="presentation"><a onclick="gotoberanda()" href="#"><i class="fas fa-home"></i></a></div>
+                    <div class="col-2" data-aos="fade-down" role="presentation"><a  onclick="gotoyoutube()" href="#"><i class="fab fa-youtube"></i></a></div>
+                    <div class="col-2" data-aos="fade-up" role="presentation"><a  onclick="gotokeahlian()" href="#"><i class="fas fa-chalkboard-teacher"></i></a></div>
+                    <div class="col-2" data-aos="fade-down" role="presentation"><a  onclick="gotoprojek()" href="#"><i class="fas fa-tasks"></i></a></div>
+                    <div class="col-2" data-aos="fade-up" role="presentation"><a  onclick="gotoprofil()" href="#"><i class="fas fa-user"></i></a></div>
+                    <div class="col-2" data-aos="fade-left" role="presentation"><a  data-toggle="modal" data-target="#hubungisaya" href="#"><i class="fas fa-address-book"></i></a></div>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section id="beranda" class="portfolio-block block-intro gradient">
+            <video autoplay muted loop class="backgroundvideo">
+                <source src="./assets/img/background.mp4" type="video/mp4">
+              </video>
+            <div class="container-header">
+                <div data-aos="fade-down" class="avatar" style="background-image:url(assets/img/olis.jpg);"></div>
+                <div data-aos="fade-up" class="about-me">
+                    <p>Hai Bor! Saya <strong>Olis</strong>. Saya bekerja sebagai Front-End Developer, selain itu saya juga memiliki hobi sebagai Youtuber.<br> Ada yang bisa saya bantu?</p><a class="btn btn-outline-primary" role="button" data-toggle="modal"
+                        data-target="#hubungisaya" href="#">Hubungi Saya</a></div>
+            </div>
+        </section>
+        <section id="youtube" class="portfolio-block website gradient">
+            <div data-aos="fade-down" class="container">
+                <div class="heading">
+                    <h2>Youtube</h2>
+                </div>
+                <div data-aos="fade-up" class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link youtube active" href="#profile" role="tab" data-toggle="tab">Terbaru</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link youtube" href="#buzz" role="tab" data-toggle="tab">Semua</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade show active" id="profile">
+                                <div class="slidefour">
+
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="buzz">
+                                <div class="row video">
+
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-3 col-video">
+                                        <div class="cardvideo">
+                                            <div class="thumnail">
+                                                <img src="./assets/img/olismix logo.png" alt="" class="covervideo">
+                                                <button youtubeid="K_kAY-A0hk8"  class="btnplay youtube-link">
+                                                    <center><i class="fas fa-play-circle"></i></center>
+                                                </button>
+                                            </div>
+                                            <div class="contentvideo">
+                                                <h3 class="titlevideo">Title 1</h3>
+                                                <p class="descriptionvideo">
+                                                    <span><i class="fab fa-youtube"></i> olismix</span><span><i class="fas fa-calendar-alt"></i> 10 feb 2020</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="keahlian" class="portfolio-block website gradient">
+            <div data-aos="fade-down" class="container">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>Keahlian</h2>
+                </div>
+                <!-- End: portfolio heading -->
+                <div data-aos="fade-up" class="regular">
+                    <div>
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Interface Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Photography and Print</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Interface Design</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Photography and Print</h3>
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projek" class="portfolio-block website gradient">
+            <div data-aos="fade-down" class="container">
+                <div class="heading">
+                    <h2>Projek</h2>
+                </div>
+                <div data-aos="fade-up" class="singleslide">
+
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                                <h3>Website Project 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor eros.</p>
+                                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal1">
+                                Selengkapnya
+                                </button>
+                            </div>
+                            <div class="col-md-12 col-lg-5">
+                                <div class="portfolio-laptop-mockup">
+                                    <div class="screen">
+                                        <div class="screen-content" style="background-image:url('./assets/img/olismix logo.png');"></div>
+                                    </div>
+                                    <div class="keyboard"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                                <h3>Website Project 2</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor eros.</p>
+                                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal2">
+                                Selengkapnya
+                                </button>
+                            </div>
+                            <div class="col-md-12 col-lg-5">
+                                <div class="portfolio-laptop-mockup">
+                                    <div class="screen">
+                                        <div class="screen-content" style="background-image:url('https://images.unsplash.com/photo-1581227281228-79c84cde1e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI2Njg5fQ&auto=format&fit=crop&w=1050&q=60');"></div>
+                                    </div>
+                                    <div class="keyboard"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Website Project 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                        </div>
+                        <div class="modal-body">
+                            <nav>
+                                <div class="nav nav-tabs modaltab" id="nav-tab1" role="tablist">
+                                    <a class="nav-item nav-link modaltab active" id="nav-profile-tab" data-toggle="tab" href="#description1" role="tab" aria-controls="nav-profile" aria-selected="false">Deskripsi</a>
+                                    <a class="nav-item nav-link modaltab" id="nav-home-tab" data-toggle="tab" href="#tampilan1" role="tab" aria-controls="nav-home" aria-selected="true">Tampilan</a>
+
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="description1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="description-project">
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tampilan1" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row galley-detail">
+
+                                        <div class="col-6">
+                                            <a data-dismiss="modal" aria-label="Close" href="https://images.unsplash.com/photo-1552594270-b95bee9a6a33?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60">
+                                                <img src="https://images.unsplash.com/photo-1552594270-b95bee9a6a33?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" class="img-project" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a data-dismiss="modal" aria-label="Close" href="./assets/img/olismix logo.png">
+                                                <img src="./assets/img/olismix logo.png" class="img-project" alt="">
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Website Project 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                        </div>
+                        <div class="modal-body">
+                            <nav>
+                                <div class="nav nav-tabs modaltab" id="nav-tab2" role="tablist">
+                                    <a class="nav-item nav-link modaltab active" id="nav-profile-tab" data-toggle="tab" href="#description2" role="tab" aria-controls="nav-profile" aria-selected="false">Deskripsi</a>
+                                    <a class="nav-item nav-link modaltab" id="nav-home-tab" data-toggle="tab" href="#tampilan2" role="tab" aria-controls="nav-home" aria-selected="true">Tampilan</a>
+
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="description2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="description-project">
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <p><strong>Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tampilan2" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="row galley-detail">
+
+                                        <div class="col-6">
+                                            <a data-dismiss="modal" aria-label="Close" href="https://images.unsplash.com/photo-1581227281228-79c84cde1e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI2Njg5fQ&auto=format&fit=crop&w=1050&q=60">
+                                                <img src="https://images.unsplash.com/photo-1581227281228-79c84cde1e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI2Njg5fQ&auto=format&fit=crop&w=1050&q=60" class="img-project" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a data-dismiss="modal" aria-label="Close" href="https://images.unsplash.com/photo-1500063002433-e4647d7f1cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=60">
+                                                <img src="https://images.unsplash.com/photo-1500063002433-e4647d7f1cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=60" class="img-project" alt="">
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="profil" class="portfolio-block website gradient">
+            <div data-aos="fade-down" class="container">
+                <div class="heading">
+                    <h2>Profil</h2>
+                </div>
+                <div data-aos="fade-up" class="row">
+
+                    <div data-aos="fade-right" class="col-md-12 col-lg-6 colprofil">
+                        <div class="singleslide galeriprofil">
+                            <div>
+                                <a href="./assets/img/olis.JPG"><img class="img-profil" src="./assets/img/olis.JPG" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="./assets/img/olis1.jpg"><img class="img-profil" src="./assets/img/olis1.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="./assets/img/olis2.jpg"><img class="img-profil" src="./assets/img/olis2.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="./assets/img/olis3.jpg"><img class="img-profil" src="./assets/img/olis3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="col-md-12 col-lg-6 colprofil">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link youtube active" id="home-tab" data-toggle="tab" href="#biodata" role="tab" aria-controls="home" aria-selected="true">Biodata</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link youtube" id="profile-tab" data-toggle="tab" href="#pendidikan" role="tab" aria-controls="profile" aria-selected="false">Pendidikan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link youtube" id="contact-tab" data-toggle="tab" href="#kerja" role="tab" aria-controls="contact" aria-selected="false">Pengalaman Kerja</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="biodata" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Nurholis Majid</h3>
+                                        </div>
+                                        <table class="table-biodata">
+                                            <tr>
+                                                <td>Tempat tanggal lahir</td>
+                                                <td>:</td>
+                                                <td>Tasikmalaya, 02 Januari 1994.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pendidikan Terakhir</td>
+                                                <td>:</td>
+                                                <td>Diploma III (Sistem Informasi)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>E-mail</td>
+                                                <td>:</td>
+                                                <td>nrhlsmjd@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Telepon / Ponsel</td>
+                                                <td>:</td>
+                                                <td>08814049848</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Alamat</td>
+                                                <td>:</td>
+                                                <td>Jl.gunung subang rt 001/ rw 012, Kel.Cilamajang Kec.Kawalu Kota Tasikmalaya</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pendidikan" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Sekolah Dasar</h3>
+                                            <h4 class="organization">SDN Darmajaya Tasikmalaya</h4>
+                                        </div>
+                                        <div class="col-md-6"><span class="period">07/2002 - 06/2008</span></div>
+                                    </div>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Sekolah Menengah Pertama </h3>
+                                            <h4 class="organization">SMPS PUI Kawalu Tasikmalaya</h4>
+                                        </div>
+                                        <div class="col-md-6"><span class="period">07/2008 - 06/2011</span></div>
+                                    </div>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Sekolah Menengah Kejuruan </h3>
+                                            <h4 class="organization">SMKS Mana'arotul Ummah Kawalu Tasikmalaya</h4>
+                                        </div>
+                                        <div class="col-md-6"><span class="period">09/2015 - 05/2018</span></div>
+                                    </div>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Sekolah Tinggi </h3>
+                                            <h4 class="organization">UBSI Tasikmalaya</h4>
+                                        </div>
+                                        <div class="col-md-6"><span class="period">07/2011 - 06/2014</span></div>
+                                    </div>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="kerja" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>Web Developer</h3>
+                                            <h4 class="organization">WIT.ID</h4>
+                                        </div>
+                                        <div class="col-md-6"><span class="period">4/2019 - Sekarang</span></div>
+                                    </div>
+                                    <div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links">
+                <a onclick="gotoberanda()" href="#">Beranda</a>
+                <a onclick="gotoyoutube()" href="#">Youtube</a>
+                <a onclick="gotokeahlian()" href="#">Keahlian</a>
+                <a onclick="gotoprojek()" href="#">Projek</a>
+                <a onclick="gotoprofil()" href="#">Profil</a>
+                <a data-toggle="modal" data-target="#hubungisaya" href="#">Hubungi Saya</a>
+            </div>
+            <div class="social-icons"><a href="https://www.facebook.com/olismix"><i class="icon ion-social-facebook"></i></a><a href="https://www.instagram.com/olismix/"><i class="icon ion-social-instagram-outline"></i></a><a href="https://youtube.com/channel/UCcQirA1s4KG92BFAxBbYfRA"><i class="icon ion-social-youtube"></i></a></div>
+        </div>
+    </footer>
+    <a data-aos="fade-in" href="#" onclick="gotoberanda()" class="gotoup"><i class="far fa-caret-square-up"></i></a>
+    <div class="modal fade" id="hubungisaya" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog hubungisaya" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hubungisayaLabel">Hubungi Saya</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group"><label for="subject">Subject</label><select class="form-control" id="subject"><option value="" selected="">Pilih Subject</option><option value="Project Website / Mobile">Project Website / Mobile</option><option value="Project Content Editor">Project Content Editor</option><option value="Lainnya">Lainnya</option></select></div>
+                        <div class="form-group"><label for="email">Email</label><input class="form-control" type="email" id="email"></div>
+                        <div class="form-group"><label for="message">Pesan</label><textarea class="form-control" id="message"></textarea></div>
+                        <div class="form-group"><label for="hire-date">Tanggal</label><input class="form-control" type="date" id="hire-date"></div>
+                        <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Kirim Pesan</button></div>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js?h=1dd785e1de9a32e236b624ae268bb803"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=2394c9ffd5558f411ffdc3326e9a8962"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/aos/dist/aos.js"></script>
+    <script src="assets/slick/slick.js"></script>
+    <script src="assets/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="assets/GRT/grt-youtube-popup.js"></script>
+    <script> $(".youtube-link").grtyoutube(); </script>
+    <script src="assets/js/script.min.js?h=f82c1f62e9f66b57f268c9f78badf050"></script>
+</body>
+
+</html>
