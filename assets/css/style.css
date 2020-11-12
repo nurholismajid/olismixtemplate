@@ -530,6 +530,21 @@ nav.navbar.navbar-dark.mobile.navbar-expand-lg.fixed-top.bg-white.portfolio-navb
 
 
   @media only screen and (max-width: 500px) {
+
+    .portfolio-block.block-intro .avatar {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+        border-radius: 100px;
+        margin-bottom: 30px;
+    }
+    .portfolio-block.block-intro p {
+        font-size: .5em;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
     
     .container-header {
         position: absolute;
